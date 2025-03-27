@@ -1,0 +1,13 @@
+{
+  "name": "finvestai-deploy",
+  "private": true,
+  "version": "1.0.0",
+  "workspaces": [
+    "src"
+  ],
+  "scripts": {
+    "start": "cd src && npm start",
+    "build": "cd src && npm run build",
+    "install": "cd src && npm install"
+  }
+}
